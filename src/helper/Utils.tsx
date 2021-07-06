@@ -118,55 +118,6 @@ export const convertObjectToQueryString = (params: any) => {
     .join('&');
 };
 
-// const generateRtcToken = (title: string) => {
-//   // Rtc Examples
-//   const appID = Secrets.REACT_APP_AGORA_APP_ID;
-//   const appCertificate = Secrets.REACT_APP_AGORA_APP_CERTIFICATE;
-//   const channelName = title;
-//   const uid = 0;
-//   const role = RtcRole.PUBLISHER;
-
-//   const expirationTimeInSeconds = 3600;
-
-//   const currentTimestamp = Math.floor(Date.now() / 1000);
-
-//   const privilegeExpiredTs = currentTimestamp + expirationTimeInSeconds;
-
-//   // IMPORTANT! Build token with either the uid or with the user account. Comment out the option you do not want to use below.
-
-//   // Build token with uid
-//   const tokenA = RtcTokenBuilder.buildTokenWithUid(
-//     appID,
-//     appCertificate,
-//     channelName,
-//     uid,
-//     role,
-//     privilegeExpiredTs,
-//   );
-//   return tokenA;
-
-//   // Build token with user account
-//   // const tokenB = RtcTokenBuilder.buildTokenWithAccount(appID, appCertificate, channelName, account, role, privilegeExpiredTs);
-//   // console.log("Token With UserAccount: " + tokenB);
-// };
-
-// const generateRtmToken = () => {
-//   // Rtm Examples
-//   const appID  = process.env.REACT_APP_AGORA_APP_ID;
-//   const appCertificate = process.env.REACT_APP_AGORA_APP_CERTIFICATE;
-//   const account = '0';
-
-//   const expirationTimeInSeconds = 3600
-//   const currentTimestamp = Math.floor(Date.now() / 1000)
-
-//   const privilegeExpiredTs = currentTimestamp + expirationTimeInSeconds
-
-//   const token = RtmTokenBuilder.buildToken(appID, appCertificate, account, RtmRole, privilegeExpiredTs);
-//   return token
-// }
-
-// generateRtcToken()
-// generateRtmToken()
 export const showAlert = (
   title: string = '',
   msg: string = '',

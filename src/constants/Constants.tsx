@@ -25,9 +25,6 @@ const Constants = {
       title: {
         string: 'Live on facebook',
       },
-      description: {
-        string: 'Streamplex Facebook share',
-      },
       status: {
         string: 'LIVE_NOW',
       },
