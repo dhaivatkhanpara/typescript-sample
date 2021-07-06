@@ -1,0 +1,9 @@
+{
+  "Login.welcome": "Welcome",
+  "Login.friendsList": "My Friends List",
+  "Login.selectFriends": "Select friends who can start live with this live session. You can invite upto 10 friends.",
+  "Login.addTitle": "Add a Title",
+  "Login.withFb": "Login with Facebook",
+  "Login.logoutFb": "Logout from Facebook",
+
+}

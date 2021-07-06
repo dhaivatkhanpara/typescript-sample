@@ -1,0 +1,27 @@
+export const baseColors = {
+  black: '#000000',
+  white: '#ffffff',
+};
+export const colors = {
+  primary: '#5500F8',
+  default_black: baseColors.black,
+  default_white: baseColors.white,
+  btnColor: '#0093E9',
+  primary_font: '#1D1330',
+  secondary_font: '#514C5B',
+  error: '#FF0000',
+  primary_background: '#F5F4F8',
+  secondary_background: '#ECEDEF',
+  primary_textborder: 'rgba(66, 103, 178,0.15)',
+  inactive_switch: '#f4f3f4',
+  background_switch: '#3e3e3e',
+  background_stream_modal: '#F2F3F5',
+  loader: '#222',
+  transparent: 'rgba(0,0,0,0.25)',
+  borderColor: '#22222255',
+  joinChannelInputColor: '#cccccc77',
+  btnBackground: '#78b0ff',
+  titleColor: '#333',
+  facebookColor: '#4267B2',
+  input_placeholder: 'rgba(255, 255, 255, 0.5)',
+};
